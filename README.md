@@ -1,4 +1,4 @@
-# Lynko — Contract Lifecycle & Workflow Management System
+# Signora CMS — Contract Lifecycle & Workflow Management System
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![React](https://img.shields.io/badge/Frontend-React%20%2F%20Vite-blue)](https://react.dev/)
@@ -11,7 +11,7 @@ An enterprise-grade, secure Contract Lifecycle Management (CLM) system designed 
 
 ## Project Description
 
-**Lynko** (built on the *Signora* core framework) is a comprehensive Contract Lifecycle Management platform. It empowers enterprises to transition away from manual, email-based contract processing to a fully audited, automated workflow engine. Lynko ensures document compliance, provides granular permission controls, and maintains a strict append-only audit trail of every single contract action, revision, and approval step.
+**Signora CMS** is a comprehensive Contract Lifecycle Management platform. It empowers enterprises to transition away from manual, email-based contract processing to a fully audited, automated workflow engine. Signora CMS ensures document compliance, provides granular permission controls, and maintains a strict append-only audit trail of every single contract action, revision, and approval step.
 
 ### Problem Statement
 In traditional business environments, contract reviews and approvals are highly fragmented. Documents are sent over emails, leading to:
@@ -20,8 +20,8 @@ In traditional business environments, contract reviews and approvals are highly 
 * **Bottlenecks & Delays**: No automated workflow routing; contracts stall because they are waiting on a stakeholder who is unaware of their pending action.
 * **Lack of Access Control**: Insecure distribution of sensitive financial or legal terms to unauthorized personnel.
 
-### Why Lynko Was Built
-Lynko was engineered to centralize the contract lifecycle into a secure, event-driven web application. It introduces:
+### Why Signora CMS Was Built
+Signora CMS was engineered to centralize the contract lifecycle into a secure, event-driven web application. It introduces:
 1. **Dynamic Approval Pipelines**: Custom-tailored steps based on organization structures.
 2. **Immutable Versioning**: Clear demarcation of draft, review, active, and rejected states.
 3. **Rigorous Compliance**: Cryptographically verified passwords, tokenized invites, and immutable audit logs that cannot be modified or deleted, satisfying internal compliance and external legal standards.
@@ -327,7 +327,7 @@ SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_gmail_app_password
 
 # Notification sender information config
-FROM_NAME=Lynko Contract System
+FROM_NAME=Signora Contract System
 FROM_EMAIL=your_email@gmail.com
 ADMIN_EMAIL=your_email@gmail.com
 ```
@@ -522,12 +522,6 @@ Open your browser and navigate to the local development environment port (typica
 * **Platform**: Render / AWS EC2
 * **Database**: MongoDB Atlas Cluster
 * **Production API URL**: `https://cms-backend-production.up.railway.app`
-
----
-
-## Demo Video
-
-[Click here to watch the walkthrough video on Loom](https://loom.com/share/placeholder)
 
 ---
 
